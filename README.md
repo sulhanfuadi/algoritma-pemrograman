@@ -3,10 +3,6 @@
 Sebuah repository yang memuat seluruh tugas, praktikum, serta solusinya pada mata kuliah Algoritma Pemrograman di Departemen Informatika/Ilmu Komputer Universitas Diponegoro yang dibimbing oleh Dr. Aris Puji Widodo, MT.. 
 Dalam repository ini program-program solusi dituliskan dengan menggunakan bahasa pemrograman C.
 
-## Memulai
-Untuk dapat menggunakan dan menjalankan program-program dalam repository ini dibutuhkan prasyarat sebagai berikut.
-> Catatan: Untuk editor dapat menggunakan editor yang berbeda.
-
 ## Penggunaan
 Untuk dapat menggunakan dan menjalankan program-program maupun solusi lainnya dalam repository ini Anda dapat melakukan clone repository untuk menggunakan keseluruhan repository, mendownload folder tertentu, atau mendownload single file dengan cara sebagai berikut.
 
