@@ -16,10 +16,10 @@ Untuk dapat menggunakan dan menjalankan program-program maupun solusi lainnya da
     ```
 - Download Folder
 
-    Anda bisa menggunakan website [downgit][downgit] untuk mendownload folder tertentu.
+    Anda bisa langsung mendownload folder dengan menggunakan fitur yang sudah disiapkan oleh Github.
 - Single File
 
-    Anda bisa menggunakan website [downgit][downgit] untuk mendownload file tertentu.
+   Anda bisa langsung mendownload folder dengan menggunakan fitur yang sudah disiapkan oleh Github.
 
 ## Lisensi
 
