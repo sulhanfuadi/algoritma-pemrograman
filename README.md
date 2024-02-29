@@ -8,7 +8,7 @@ Untuk dapat menggunakan dan menjalankan program-program maupun solusi lainnya da
 
 - Clone Repo
     ```shell
-    git clone https://github.com/harisfi/TP_KULIAH.git
+    git clone https://github.com/sulhanfuadi/algoritma-pemrograman.git
     ```
 - Download Folder
 
