@@ -1,0 +1,111 @@
+Manajemen Perpustakaan
+
+===
+
+Deskripsi Kasus:
+Patchouli merupakan seorang penjaga perpustakaan yang sangatlah besar. 
+Oleh karena itu, diperlukanlah sebuah sistem manajemen perpustakaan yang membantunya dalam manajemen buku. 
+Terdapat 3 buah operasi yang dapat dilakukan pada sistem tersebut:
+1. Menampilkan Stok Buku
+Langsung tampilkan angka yang menyatakan banyaknya buku yang tersedia, jika tidak ada keluarkan angka 0.
+2. Mengembalikan Buku
+Menambahkan stok buku pada perpustakaan dan tampilkan “Terima Kasih”.
+3. Meminjam Buku
+Jika ada stok buku yang tersedia, kurangi stok buku tersebut dan tampilkan “Buku Berhasil Dipinjam”. 
+Jika tidak ada stok buku yang tersedia tampilkan “Maaf Stok Kosong”.
+
+Pada suatu hari, Patchouli sudah diberi informasi oleh Reimu jika akan terdapat pengunjung sebanyak Q, 
+dengan masing-masing pengunjung melakukan salah satu dari 3 operasi tersebut dengan format q b, 
+dengan q merupakan angka 1, 2, atau 3 dan b merupakan nama buku. Nama buku tersebut dapat terdiri atas 
+huruf lowercase, uppercase, angka, maupun spasi.
+
+Karena Patchouli kesulitan dalam pembuatan program untuk manajemen tersebut, 
+maka kamu memutuskan untuk membantu Patchouli.
+
+===
+
+Input Format:
+Baris pertama terdiri dari sebuah bilangan bulat Q yang menyatakan banyaknya pengunjung. 
+Q baris selanjutnya terdiri dari dua buah bilangan bulat q b, dengan q merupakan angka 1, 2, atau 3 dan b merupakan nama buku.
+
+Output Format:
+Menampilkan sebanyak Q baris hasil dari masing-masing operasi yang sudah dinyatakan pada deskripsi soal.
+
+Constraints
+1 ≤ Q ≤ 100
+1 ≤ q ≤ 3
+1 ≤ |b| ≤ 100
+
+===
+
+Contoh Masukan:
+15
+1 Dunia Sophie
+2 Calculus 9th Edition
+2 Atomic Habits
+2 Oshi no Ko 05
+2 Atomic Habits
+1 Oshi no Ko 05
+3 Oshi no Ko 05
+1 Oshi no Ko 05
+1 Atomic Habits
+3 Campbell Jilid 1
+3 Oshi no Ko 05
+2 Oshi no Ko 04
+1 Oshi no Ko 05
+1 Oshi no Ko 04
+1 Calculus 9th Edition
+
+Contoh Keluaran:
+0
+Terima Kasih
+Terima Kasih
+Terima Kasih
+Terima Kasih
+1
+Buku Berhasil Dipinjam
+0
+2
+Maaf Stok Kosong
+Maaf Stok Kosong
+Terima Kasih
+0
+1
+1
+
+===
+
+Contoh Hasil Input Output:
+
+==================== Aplikasi Manajemen Perpustakaan ====================
+Masukkan jumlah pengunjung: 15
+Masukkan operasi dan nama buku: 1 Dunia Sophie
+0
+Masukkan operasi dan nama buku: 2 Calculus 9th Edition
+Terima Kasih
+Masukkan operasi dan nama buku: 2 Atomic Habits       
+Terima Kasih
+Masukkan operasi dan nama buku: 2 Oshi no Ko 05       
+Terima Kasih
+Masukkan operasi dan nama buku: 2 Atomic Habits       
+Terima Kasih
+Masukkan operasi dan nama buku: 1 Oshi no Ko 05
+1
+Masukkan operasi dan nama buku: 3 Oshi no Ko 05
+Buku Berhasil Dipinjam
+Masukkan operasi dan nama buku: 1 Oshi no Ko 05
+0
+Masukkan operasi dan nama buku: 1 Atomic Habits
+2
+Masukkan operasi dan nama buku: 3 Campbell Jilid 1
+Maaf Stok Kosong
+Masukkan operasi dan nama buku: 3 Oshi no Ko 05
+Maaf Stok Kosong
+Masukkan operasi dan nama buku: 2 Oshi no Ko 04
+Terima Kasih
+Masukkan operasi dan nama buku: 1 Oshi no Ko 05
+0
+Masukkan operasi dan nama buku: 1 Oshi no Ko 04
+1
+Masukkan operasi dan nama buku: 1 Calculus 9th Edition
+1
