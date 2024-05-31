@@ -17,7 +17,7 @@ void InsertionSORT(int T[], int n) {
 		temp = T[i];
 		j = i - 1;
 
-		while ((T[j] > temp) && (j >= 0)) {
+		while ((T[j] > temp) && (j > 0)) {
 			T[j + 1] = T[j];
 			j = j - 1;
 		}
